@@ -70,8 +70,8 @@
 .work {
   height: 90vh;
   width: 80vw;
-  background-color: black;
   padding: 10vh 10vw 0;
+  background-color: black;
 }
 
 .work-title {
@@ -108,8 +108,8 @@
 }
 
 .work-box .sum {
-  height: 18vh;
-  width: 12vw;
+  height: 115px;
+  width: 155px;
   /* background-color: aquamarine; */
 }
 
@@ -146,6 +146,12 @@
   overflow: hidden;
 }
 
+.work-box-r .sum {
+  height: 115px;
+  width: 155px;
+  /* background-color: aquamarine; */
+}
+
 .work-box-r .intro {
   height: 6vh;
   width: 12vw;
@@ -175,10 +181,10 @@
 }
 
 .skill {
-  height: 90vh;
+  height: 110vh;
   width: 80vw;
-  background-color: white;
-  padding: 10vh 10vw 0;
+  background-color: black;
+  padding: 10vh 10vw 20vh;
 }
 
 .skill-title {
@@ -186,8 +192,8 @@
   align-items: center;
   height: 50px;
   width: 150px;
-  color: black;
-  border: solid 1px black;
+  color: white;
+  border: solid 1px white;
 }
 
 .skill-title h3 {
@@ -198,10 +204,28 @@
   font-size: 25px;
 }
 
+.skill-main {
+  /* background-color: aqua; */
+  margin-top: 10vh;
+}
+
+.skill-main h4 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.skill-main p {
+  padding: 10px 0 50px;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: aliceblue;
+}
+
 .profile {
-  height: 90vh;
+  height: 65vh;
   width: 80vw;
-  background-color: black;
   padding: 10vh 10vw 0;
 }
 
@@ -210,8 +234,7 @@
   align-items: center;
   height: 50px;
   width: 150px;
-  color: white;
-  border: solid 1px white;
+  border: solid 1px black;
 }
 
 .profile-title h3 {
@@ -220,4 +243,35 @@
   margin: 0 auto;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 25px;
+}
+
+.profile p {
+  margin-top: 2vh;
+  font-size: 15px;
+  line-height: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.profile .name-box {
+  display: flex;
+  margin-top: 10vh;
+
+}
+
+.profile h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.profile .icon-box {
+  height: 12px;
+  display: flex;
+  font-size: 12px;
+  color: #a9a9a9;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.profile .icon-box a {
+  color: #a9a9a9;
 }
