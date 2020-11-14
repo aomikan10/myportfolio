@@ -68,7 +68,7 @@
 }
 
 .work {
-  height: 100vh;
+  height: 90vh;
   width: 80vw;
   background-color: black;
   padding: 10vh 10vw 0;
@@ -101,29 +101,81 @@
   /* background-color: aliceblue; */
 }
 
-.sum {
-  height: 15vh;
+.work-box {
+  margin-right: 30px;
+  margin-bottom: 45px;
+  overflow: hidden;
+}
+
+.work-box .sum {
+  height: 18vh;
   width: 12vw;
   /* background-color: aquamarine; */
 }
 
-.intro {
-  height: 10vh;
+.work-box .intro {
+  height: 6vh;
   width: 12vw;
+  margin-top: 15px;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
   /* background-color: rebeccapurple; */
 }
 
-.work-box {
-  margin-right: 30px;
-  margin-bottom: 50px;
+.work-box .intro span {
+  color: #a9a9a9;
+  font-size: 12px;
+}
+
+.work-box .mask {
+	width: 100%;
+	height: 100%;
+	top:  0;
+	left: 0;
+	opacity:  0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:	all 0.2s ease;
+}
+.work-box:hover .mask {
+  opacity:  1;	/* マスクを表示する */
 }
 
 .work-box-r {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
+  overflow: hidden;
+}
+
+.work-box-r .intro {
+  height: 6vh;
+  width: 12vw;
+  margin-top: 15px;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: rebeccapurple; */
+}
+
+.work-box-r .intro span {
+  color: #a9a9a9;
+  font-size: 12px;
+}
+
+.work-box-r .mask {
+	width: 100%;
+	height: 100%;
+	top:  0;
+	left: 0;
+	opacity:  0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:	all 0.2s ease;
+}
+.work-box-r:hover .mask {
+  opacity:  1;	/* マスクを表示する */
 }
 
 .skill {
-  height: 100vh;
+  height: 90vh;
   width: 80vw;
   background-color: white;
   padding: 10vh 10vw 0;
